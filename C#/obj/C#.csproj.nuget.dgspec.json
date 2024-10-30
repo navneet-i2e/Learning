@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\navneet.anand\\Downloads\\My Learning\\C#\\C#.csproj": {}
+    "C:\\Users\\navneet.anand\\OneDrive - I2e Consulting\\Desktop\\Learning\\C#\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\navneet.anand\\Downloads\\My Learning\\C#\\C#.csproj": {
+    "C:\\Users\\navneet.anand\\OneDrive - I2e Consulting\\Desktop\\Learning\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navneet.anand\\Downloads\\My Learning\\C#\\C#.csproj",
+        "projectUniqueName": "C:\\Users\\navneet.anand\\OneDrive - I2e Consulting\\Desktop\\Learning\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\navneet.anand\\Downloads\\My Learning\\C#\\C#.csproj",
+        "projectPath": "C:\\Users\\navneet.anand\\OneDrive - I2e Consulting\\Desktop\\Learning\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\navneet.anand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navneet.anand\\Downloads\\My Learning\\C#\\obj\\",
+        "outputPath": "C:\\Users\\navneet.anand\\OneDrive - I2e Consulting\\Desktop\\Learning\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\navneet.anand\\AppData\\Roaming\\NuGet\\NuGet.Config",
