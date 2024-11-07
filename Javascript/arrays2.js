@@ -83,3 +83,7 @@
 // arr.forEach((element, index) => {
 //   console.log(element, index);
 // });
+
+//sum of n natural numbers using forof
+
+
