@@ -230,24 +230,26 @@
 
 
 //using for loop
-// class Program{
-//     public static void Main(string[] args)
-//     {
-//         Console.WriteLine("Enter a number:");
-//         int number=Convert.ToInt32(Console.ReadLine());
-//         ForLoop.printNumber(number);
-//     }
-// }
+//class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        Console.WriteLine("Enter a number:");
+//        int number = Convert.ToInt32(Console.ReadLine());
+//        ForLoop.printNumber(number);
+//    }
+//}
 
 //using while loop
-// class Program{
-//     public static void Main(string[] args)
-//     {
-//         Console.WriteLine("Enter a number:");
-//         int number=Convert.ToInt32(Console.ReadLine());
-//         WhileLoop.printNumber(number);
-//     }
-// }
+//class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        Console.WriteLine("Enter a number:");
+//        int number = Convert.ToInt32(Console.ReadLine());
+//        WhileLoop.printNumber(number);
+//    }
+//}
 
 //using do while
 
@@ -310,16 +312,16 @@
 // class Program{
 //     public static void Main(string[] args){
 //     //   // string[] names=["Navneet","Anand","Rajesh","Priya","Shubham"];
-   
+
 //     // //    string[] names=new string[5]{"Navneet","Anand","Rajesh","Priya","Shubham"};
-       
+
 //     // //    string[]names=new string[]{"Navneet","Anand","Rajesh","Priya","Shubham"};
 
 //     // string[] names=new string[5];
 //     // Console.WriteLine("Enter name:");
 //     // for(int i=0;i<names.Length;i++)
 //     // {
-     
+
 //     //  names[i]=Console.ReadLine()!;              //supressing warning
 
 //     // }
@@ -339,7 +341,7 @@
 // // foreach(int i in numbers)
 // // {
 // //     Console.WriteLine(i);
-   
+
 // // }
 
 // // for string
@@ -417,7 +419,7 @@
 //         Console.WriteLine(p1.firstName);
 //         Console.WriteLine(p1.lastName);
 //         Console.WriteLine(p1.age);
-        
+
 
 //     }
 // }
@@ -427,7 +429,7 @@
 //     {
 //         CarModel myCar=new CarModel();
 //         myCar.showDetails();
-        
+
 //     }
 // }
 // class Program{
@@ -435,18 +437,19 @@
 //     {
 //        Constructor C1=new Constructor();
 //     Constructor C2=new Constructor("Rahul",26);
-        
+
 //     }
 // }
 
 
-// class Program{
-//     public static void Main(string[] args)
-//     {
-//         Score s1=Score.mid;
-//         Console.WriteLine(s1);
-//     }
-// }
+//class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        Score s1 = Score.mid;
+//        Console.WriteLine(s1);
+//    }
+//}
 
 // class Program{
 //     public static void Main(string[] args)
@@ -471,10 +474,11 @@
 // }
 
 
-// class Program{
+// class Program
+// {
 //     public static void Main(string[] args)
 //     {
-//         Dog myDog=new Dog();
+//         Dog myDog = new Dog();
 //         myDog.makeSound();
 //         myDog.bark();
 //     }
@@ -504,9 +508,47 @@
 
 //inbuilt exception classes
 
+//class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        Check.checkAge(10);
+//    }
+//}
+
+
+// class Program
+// {
+
+// public static void Main(string[] args){
+
+//   Abst myAbst=new XYZ();
+//   myAbst.showDetails();
+//   myAbst.showMessage();
+
+// }
+// }
+
+
+//single Inheritance
+// class Program{
+//     public static void Main(string[] args)
+//     {
+//         ABC myABC=new ABC();
+//         myABC.getDetails(101,"Navneet");
+//     }
+// }
+
+//multiple inheritance
+
 class Program{
     public static void Main(string[] args)
     {
-        Check.checkAge(10);
+       Employee myEmp=new Employee();
+      
+         myEmp.showEmpDetails(101,"Rajesh","IT");
+         myEmp.showSalary(101,26000);
     }
 }
+
+
