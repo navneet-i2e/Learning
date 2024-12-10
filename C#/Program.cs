@@ -552,18 +552,29 @@
 // }
 
 
-class Program{
-  public static void Main(string[] args)
- {
- Father myFather=new Father();
- Father mySon=new Son();
-  Father myGrandSon=new GrandSon();
+//Method Overriding
 
-  myFather.showJob();
-  mySon.showJob();
-  myGrandSon.showJob();
+// class Program{
+//   public static void Main(string[] args)
+//  {
+//  Father myFather=new Father();
+//  Father mySon=new Son();
+//   Father myGrandSon=new GrandSon();
+
+//   myFather.showJob();
+//   mySon.showJob();
+//   myGrandSon.showJob();
   
+//  }
+// }
 
- }
+class Program{
+
+public static void Main(string[] args)
+{
+    Cricketer myCricketer=new Cricketer();
+    myCricketer.Name="Virat Kohli";
+    Console.WriteLine(myCricketer.Name);
 }
 
+}
