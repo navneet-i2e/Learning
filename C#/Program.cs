@@ -541,14 +541,29 @@
 
 //multiple inheritance
 
-class Program{
-    public static void Main(string[] args)
-    {
-       Employee myEmp=new Employee();
+// class Program{
+//     public static void Main(string[] args)
+//     {
+//        Employee myEmp=new Employee();
       
-         myEmp.showEmpDetails(101,"Rajesh","IT");
-         myEmp.showSalary(101,26000);
-    }
-}
+//          myEmp.showEmpDetails(101,"Rajesh","IT");
+//          myEmp.showSalary(101,26000);
+//     }
+// }
 
+
+class Program{
+  public static void Main(string[] args)
+ {
+ Father myFather=new Father();
+ Father mySon=new Son();
+  Father myGrandSon=new GrandSon();
+
+  myFather.showJob();
+  mySon.showJob();
+  myGrandSon.showJob();
+  
+
+ }
+}
 
