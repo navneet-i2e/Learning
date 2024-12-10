@@ -568,13 +568,40 @@
 //  }
 // }
 
+// class Program{
+
+// public static void Main(string[] args)
+// {
+//     Cricketer myCricketer=new Cricketer();
+//     myCricketer.Name="Virat Kohli";
+//     Console.WriteLine(myCricketer.Name);
+// }
+
+// }
+
+
+//Single Responsibility Principle
+
+// class Program{
+//     public static void Main(string[] args)
+//     {
+//         Vehicle myVehicle=new Vehicle();
+//         myVehicle.name="Car";
+//         myVehicle.color="Red";
+//         printDetails showDetails=new printDetails();
+//         showDetails.VehicleDetails(myVehicle);
+//     }
+// }
+
+
+//Open closed Principle
+
 class Program{
-
-public static void Main(string[] args)
-{
-    Cricketer myCricketer=new Cricketer();
-    myCricketer.Name="Virat Kohli";
-    Console.WriteLine(myCricketer.Name);
-}
-
+    public static void Main(string[] args)
+    {
+        Shapes myCircle=new Circle{radius=4};
+        Shapes mySquare=new Square{side=4};
+       Console.WriteLine(myCircle.CalculateArea());
+         Console.WriteLine(mySquare.CalculateArea());
+    }
 }
